@@ -15,11 +15,9 @@
 - [References](#references)
 
 ## Introduction
-In real-world photography, unwanted optical reflections are common, such as glass reflections or lens flares. **SIRR** aims to remove these reflections from a single image.
+Reflection artifacts often degrade the quality of photographs captured through glass surfaces. By exploring different approaches in SIRR, we aim to advance this field and improve visual quality for various applications such as photography, computer vision, and autonomous systems.
+![image](https://github.com/user-attachments/assets/b33c801f-2169-4dac-9958-b39aaa4efde3)
 
-The goal of this project is to:
-- Evaluate and compare the effectiveness of different SIRR models.
-- Test these models on various datasets using metrics such as **PSNR**, **SSIM**, and **LPIPS**.
 
 ## Implemented Papers
 1. **[Single Image Reflection Separation with Perceptual Losses (CVPR 2018)](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Single_Image_Reflection_CVPR_2018_paper.pdf)**
@@ -32,10 +30,10 @@ The goal of this project is to:
 
 
 ## Usage
-The code for each implemented paper is located in the `code` folder:
-- `model_1` corresponds to Paper 1 ([Perceptual Reflection Removal](https://github.com/ceciliavision/perceptual-reflection-removal)).
-- `model_2` corresponds to Paper 2 ([ERRNet](https://github.com/Vandermode/ERRNet)).
-- `model_3` corresponds to Paper 3 ([IBCLN](https://github.com/JHL-HUST/IBCLN)).
+The code for each implemented paper is located in the following folder:
+- `model_1/` corresponds to Paper 1 ([Perceptual Reflection Removal](https://github.com/ceciliavision/perceptual-reflection-removal)).
+- `model_2/` corresponds to Paper 2 ([ERRNet](https://github.com/Vandermode/ERRNet)).
+- `model_3/` corresponds to Paper 3 ([IBCLN](https://github.com/JHL-HUST/IBCLN)).
 
 Each folder contains a custom `run.ipynb` file that documents the execution process, including training and testing. Modify dataset paths manually within the `run.ipynb` files before running.
 
