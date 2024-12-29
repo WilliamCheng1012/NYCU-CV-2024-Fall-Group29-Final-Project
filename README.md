@@ -37,10 +37,7 @@ The code for each implemented paper is located in the following folder:
 Each folder contains a `run.ipynb` file that documents the execution process (training, testing and evaluating). Modify dataset paths manually before running.
 
 ### Evaluating Metrics
-The evaluation metrics for **PSNR**, **SSIM**, and **LPIPS** are integrated into the code for each model:
-  - For **Model 1**, use `python eval.py` in `run.ipynb`
-  - For **Model 2**, use `python eval.py` in `run.ipynb`
-  - For **Model 3**, use `python eval.py` in `run.ipynb`
+The evaluation command (`python eval.py`) for **PSNR**, **SSIM**, and **LPIPS** are in `run.ipynb` for each model.
 
 
 ## Results
