@@ -28,16 +28,16 @@ The goal of this project is to:
 2. **[Single Image Reflection Removal Exploiting Misaligned Training Data and Network Enhancements (CVPR 2019)](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wei_Single_Image_Reflection_Removal_Exploiting_Misaligned_Training_Data_and_Network_CVPR_2019_paper.pdf)**
 3. **[Single Image Reflection Removal through Cascaded Refinement (CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Single_Image_Reflection_Removal_Through_Cascaded_Refinement_CVPR_2020_paper.pdf)**
 
-## Datasets
+## Datasets and Model Weights
 
-- **[Link](http://host.robots.ox.ac.uk/pascal/VOC/)** 
+- **[Link of data and model weights](https://drive.google.com/drive/folders/1QJfaTHqoElUqW2GJLho2odpVPrXttEGD?usp=sharing)** 
 
 
 ## Usage
 The code for each implemented paper is located in the `code` folder:
-- `code/model_1_code` corresponds to Paper 1 ([Perceptual Reflection Removal](https://github.com/ceciliavision/perceptual-reflection-removal)).
-- `code/model_2_code` corresponds to Paper 2 ([ERRNet](https://github.com/Vandermode/ERRNet)).
-- `code/model_3_code` corresponds to Paper 3 ([IBCLN](https://github.com/JHL-HUST/IBCLN)).
+- `model_1` corresponds to Paper 1 ([Perceptual Reflection Removal](https://github.com/ceciliavision/perceptual-reflection-removal)).
+- `model_2` corresponds to Paper 2 ([ERRNet](https://github.com/Vandermode/ERRNet)).
+- `model_3` corresponds to Paper 3 ([IBCLN](https://github.com/JHL-HUST/IBCLN)).
 
 Each folder contains a custom `run.ipynb` file that documents the execution process, including training and testing. Modify dataset paths manually within the `run.ipynb` files before running.
 
