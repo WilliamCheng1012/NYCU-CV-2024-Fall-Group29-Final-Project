@@ -34,7 +34,7 @@ The code for each implemented paper is located in the following folder:
 - `model_2/` corresponds to Paper 2 ([ERRNet](https://github.com/Vandermode/ERRNet)).
 - `model_3/` corresponds to Paper 3 ([IBCLN](https://github.com/JHL-HUST/IBCLN)).
 
-Each folder contains a custom `run.ipynb` file that documents the execution process, including training and testing. Modify dataset paths manually within the `run.ipynb` files before running.
+Each folder contains a `run.ipynb` file that documents the execution process (training, testing and evaluating). Modify dataset paths manually before running.
 
 ### Evaluating Metrics
 The evaluation metrics for **PSNR**, **SSIM**, and **LPIPS** are integrated into the code for each model:
