@@ -52,7 +52,7 @@ The evaluation metrics for **PSNR**, **SSIM**, and **LPIPS** are integrated into
 
 ## Results
 Below is a comparison of the three models based on testing results from the `CEILNetSynthetic` dataset.
-![Results](img/result.jpg)
+![Results](img/result.png)
 
 ## Analysis
 
