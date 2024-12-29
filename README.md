@@ -7,9 +7,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Implemented Papers](#implemented-papers)
-- [Datasets](#datasets)
-- [My Setup](#my-setup)
-- [Installation](#installation)
+- [Datasets and Model Weights](#datasets)
 - [Usage](#usage)
 - [Results](#results)
 - [Analysis](#analysis)
@@ -40,8 +38,6 @@ The code for each implemented paper is located in the `code` folder:
 - `model_3` corresponds to Paper 3 ([IBCLN](https://github.com/JHL-HUST/IBCLN)).
 
 Each folder contains a custom `run.ipynb` file that documents the execution process, including training and testing. Modify dataset paths manually within the `run.ipynb` files before running.
-
-
 
 ### Evaluating Metrics
 The evaluation metrics for **PSNR**, **SSIM**, and **LPIPS** are integrated into the code for each model:
