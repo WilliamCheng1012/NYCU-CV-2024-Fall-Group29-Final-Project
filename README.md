@@ -16,7 +16,6 @@
 
 ## Introduction
 Reflection artifacts often degrade the quality of photographs captured through glass surfaces. By exploring different approaches in SIRR, we aim to advance this field and improve visual quality for various applications such as photography, computer vision, and autonomous systems.
-![image](https://github.com/user-attachments/assets/b33c801f-2169-4dac-9958-b39aaa4efde3)
 
 
 ## Implemented Papers
